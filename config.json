@@ -1,0 +1,5 @@
+{
+    "clientId": process.env.clientId,
+	"guildId": process.env.guildId,
+    "token": process.env.token
+}
