@@ -1,6 +1,8 @@
+console.log("index.js runs")
 const fs = require('node:fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { token } = require("config.json")
+
 
 const myIntents = new Intents();
 myIntents.add(Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILDS);
